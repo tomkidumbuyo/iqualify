@@ -8,10 +8,23 @@ import { CertificatesComponent } from './certificates/certificates.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { UserComponent } from './user.component';
+import { CourseComponent } from './course/course.component';
+import { TopicComponent } from './topic/topic.component';
+import { LessonComponent } from './lesson/lesson.component';
 
 
 @NgModule({
-  declarations: [DashboardComponent, MyCoursesComponent, CertificatesComponent, FooterComponent, HeaderComponent, UserComponent],
+  declarations: [
+    DashboardComponent, 
+    MyCoursesComponent, 
+    CertificatesComponent, 
+    FooterComponent, 
+    HeaderComponent, 
+    UserComponent, 
+    CourseComponent, 
+    TopicComponent, 
+    LessonComponent
+  ],
   imports: [
     CommonModule,
     UserRoutingModule

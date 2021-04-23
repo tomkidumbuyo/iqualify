@@ -1,0 +1,145 @@
+.dash-side-nav {
+    
+    section {
+        margin-top: 30px;
+        h2 {
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            margin-top: 0px !important;
+            display: block !important;
+            font-family: Lato, "Noto Sans", sans-serif !important;
+            font-weight: 700 !important;
+            font-size: 12px !important;
+            line-height: 16px !important;
+            letter-spacing: 0.6px !important;
+            text-transform: uppercase !important;
+            color: rgba(33,36,44,0.64) !important;
+            margin-bottom: 12px !important;
+            margin-left: 24px !important;
+        }
+        ul {
+            li {
+                a {
+                    background-color: transparent !important;
+                    text-decoration: none !important;
+                    color: #21242c !important;
+                    border-radius: 4px !important;
+                    padding-top: 11px !important;
+                    padding-bottom: 11px !important;
+                    padding-left: 24px !important;
+                    border: 1px solid transparent !important;
+                    display: block !important;
+                    cursor: pointer !important;
+                }
+            }
+
+            li.active {
+                a {
+                    font-weight: 700;
+                    cursor: pointer !important;
+                    background-color: #f7f8fa !important;
+                    color: #1865f2 !important;
+                }
+            }
+        }
+    }
+}
+
+.dash-main {
+    border-left: 1px solid #ccc;
+    padding-left: 50px;
+}
+
+.dash-course-tile {
+    margin-bottom: 20px;
+    .header {
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 10px;
+        h3 {
+            float: left;
+        }
+        a {
+            float: right;
+        }
+    }
+    
+    .body {
+        ul {
+            margin-top: 20px;
+            li:first-child {
+                .topic-logo {
+                    .after{
+                        top: 20px; 
+                    }
+                }
+            }
+            li:last-child {
+                .topic-logo {
+                    .after{
+                        height: 20px;
+                        bottom: auto;
+                    }
+                }
+            }
+            li {
+                position: relative;
+                padding: 10px 80px 10px 60px;
+                .topic-logo {
+                    position: absolute;
+                    left: 10px;
+                    top:0px;
+                    bottom: 0px;
+                    width: 50px;
+                    .before{
+                        position: absolute;
+                        top: 0px
+                    }
+                    .after{
+                        position: absolute;
+                        bottom: 0px;
+                        top: 0px;
+                        width: 3px;
+                        left: 19px;
+                        border-left: 3px solid #bcbcbc;
+                    }
+                    img.rounded {
+                        position: absolute;
+                        left: 0px;
+                        top: 10px;
+                        background-color: #1865f2;
+                        width: 40px;
+                        height: 40px;
+                        border-radius:40px !important;
+                    }
+                }
+                
+                    h6.title{
+                        margin-bottom: 0px;
+                    }
+                    span.subtitle{
+                        font-size: .8em;
+                        color: #aaaaaa;
+                    }
+                
+                button.btn.resume-button{
+                    position: absolute;
+                    right: 0px;
+                    top: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.lesson-tile {
+    img {
+        background: #1865f2;
+        min-height: 100px;
+        width: 100%;
+    }
+    h5 {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+}

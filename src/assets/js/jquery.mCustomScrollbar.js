@@ -1190,9 +1190,7 @@ and dependencies (minified).
 				draggable,dragY,dragX,
 				rds=o.advanced.releaseDraggableSelectors ? mCSB_dragger.add($(o.advanced.releaseDraggableSelectors)) : mCSB_dragger,
 				eds=o.advanced.extraDraggableSelectors ? $(!_canAccessIFrame() || top.document).add($(o.advanced.extraDraggableSelectors)) : $(!_canAccessIFrame() || top.document);
-			mCSB_dragger.bind("contextmenu."+namespace,function(e){
-				e.preventDefault(); //prevent right click
-			}).bind("mousedown."+namespace+" touchstart."+namespace+" pointerdown."+namespace+" MSPointerDown."+namespace,function(e){
+			mCSB_dragger.bind("mousedown."+namespace+" touchstart."+namespace+" pointerdown."+namespace+" MSPointerDown."+namespace,function(e){
 				e.stopImmediatePropagation();
 				e.preventDefault();
 				if(!_mouseBtnLeft(e)){return;} /* left mouse button only */
@@ -1661,9 +1659,7 @@ and dependencies (minified).
 				namespace=pluginPfx+"_"+d.idx,
 				sel=".mCSB_"+d.idx+"_scrollbar",
 				btn=$(sel+">a");
-			btn.bind("contextmenu."+namespace,function(e){
-				e.preventDefault(); //prevent right click
-			}).bind("mousedown."+namespace+" touchstart."+namespace+" pointerdown."+namespace+" MSPointerDown."+namespace+" mouseup."+namespace+" touchend."+namespace+" pointerup."+namespace+" MSPointerUp."+namespace+" mouseout."+namespace+" pointerout."+namespace+" MSPointerOut."+namespace+" click."+namespace,function(e){
+			btn.bind("mousedown."+namespace+" touchstart."+namespace+" pointerdown."+namespace+" MSPointerDown."+namespace+" mouseup."+namespace+" touchend."+namespace+" pointerup."+namespace+" MSPointerUp."+namespace+" mouseout."+namespace+" pointerout."+namespace+" MSPointerOut."+namespace+" click."+namespace,function(e){
 				e.preventDefault();
 				if(!_mouseBtnLeft(e)){return;} /* left mouse button only */
 				var btnClass=$(this).attr("class");
