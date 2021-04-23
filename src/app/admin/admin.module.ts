@@ -13,10 +13,27 @@ import { StudentsComponent } from './courses/single/students/students.component'
 import { EarningsComponent } from './earnings/earnings.component';
 import { LessonComponent } from './lesson/lesson.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { AdminComponent } from './admin.component';
 
 
 @NgModule({
-  declarations: [CoursesComponent, SingleComponent, AllComponent, NewComponent, LessonsComponent, NewTopicComponent, NewLessonComponent, StudentsComponent, EarningsComponent, LessonComponent, AnalyticsComponent],
+  declarations: [
+    FooterComponent, 
+    HeaderComponent,
+    CoursesComponent, 
+    SingleComponent, 
+    AllComponent, 
+    NewComponent, 
+    LessonsComponent, 
+    NewTopicComponent, 
+    NewLessonComponent, 
+    StudentsComponent, 
+    EarningsComponent, 
+    LessonComponent, 
+    AnalyticsComponent, 
+    AdminComponent],
   imports: [
     CommonModule,
     AdminRoutingModule
