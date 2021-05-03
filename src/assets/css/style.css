@@ -718,7 +718,7 @@ i.icon1 {
 
 .stream_1 {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 15px;
 	background-position: center;
     background-repeat: no-repeat;
@@ -925,7 +925,7 @@ i.icon1 {
     width: 100%;
 	float: left;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
 	border: 1px solid #efefef;
 	transition: all .2s ease-in-out;
 }
@@ -1331,7 +1331,7 @@ i.icon1 {
 
 .value_props {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 20px;
     flex: 1;
     float: left;
@@ -1350,7 +1350,7 @@ i.icon1 {
     margin-right: 0;
     color: #333;
     background: #ffecec;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px 6px;
     display: inline-block;
 }
@@ -1536,7 +1536,7 @@ i.icon1 {
     width: 100%;
     float: left;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     transition: all .2s ease-in-out;
 }
@@ -1559,7 +1559,7 @@ i.icon1 {
     width: 100%;
     float: left;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
 	position: relative;
 	text-align: left;
@@ -1602,7 +1602,7 @@ i.icon1 {
     width: 100%;
     float: left;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 3px;
 	margin-bottom: 30px;
     border: 1px solid #efefef;
     transition: all .2s ease-in-out;
@@ -1723,7 +1723,7 @@ i.icon1 {
     width: 100%;
     float: left;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     transition: all .2s ease-in-out;
 }
@@ -1826,7 +1826,7 @@ i.icon1 {
     width: 100%;
     float: left;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     position: relative;
     text-align: center;
@@ -2054,7 +2054,7 @@ i.icon1 {
 .live1452 iframe {
 	width: 100%;
 	height: 435px;
-	border-radius: 10px;
+	border-radius: 3px;
 }
 
 @keyframes fade-in-up {
@@ -2247,7 +2247,7 @@ i.icon1 {
     font-weight: 500;
         color: #686f7a;
     border: 1px solid #efefef;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .lkcm152 span {
@@ -2294,7 +2294,7 @@ i.icon1 {
     background: #fff;
     margin-top: 30px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
 	margin-bottom: 20px;
 }
@@ -2484,7 +2484,7 @@ i.icon2 {
     padding: 10px;
     float: left;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 ._215b02 {
@@ -2822,7 +2822,7 @@ i.icon2 {
     background: #fff;
     padding: 30px;
     border: 1px solid #efefef;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 ._htgdrt h3 {
@@ -3093,7 +3093,7 @@ i.icon2 {
     background: #fff;
     padding: 20px 30px 30px;
     border: 1px solid #efefef;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .reviews_left h3 {
@@ -3292,7 +3292,7 @@ i.icon2 {
 	float: left;
 	width: 100%;
 	background: #fff;
-	border-radius: 10px;
+	border-radius: 3px;
 }
 
 .review_item {
@@ -3617,7 +3617,7 @@ i.icon2 {
     float: left;
     width: 100%;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
 	margin-bottom: 30px;
 	padding: 20px;
 }
@@ -3647,7 +3647,7 @@ i.icon2 {
 		font-weight: 400;
 	color: #333;
 	padding: 12px;
-    border-radius: 10px;
+    border-radius: 3px;
 	background: #f9f9f9;
 }
 
@@ -3707,7 +3707,7 @@ i.icon2 {
     height: 40px;
     text-align: left;
     padding: 10px 15px 10px 55px;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: 0in 0.5pc 1.125pc -7px rgba(25,42,70,.13);
     font-size: 16px;
     font-weight: 500;
@@ -4450,7 +4450,7 @@ a.rmv-btn i {
 
 .value_props50 {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 20px;
     border: 1px solid #efefef;
 	box-shadow: none;
@@ -4464,7 +4464,7 @@ a.rmv-btn i {
 
 .value_props51 {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
 	border: 1px solid #efefef;
     padding: 20px;
     box-shadow: none;
@@ -4995,7 +4995,7 @@ a.rmv-btn i {
     width: 100%;
     float: left;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     box-shadow: none;
     transition: all .2s ease-in-out;
@@ -5069,7 +5069,7 @@ a.rmv-btn i {
 .bg_blog2 img {
     width: 100%;
     margin-top: 30px;
-	border-radius: 10px;
+	border-radius: 3px;
 }
 
 .vdtodt55 {
@@ -5406,7 +5406,7 @@ a.rmv-btn i {
 	width: 100%;
 	background: #fff;
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 3px;
 	height: 190px;
 	text-align: center;
 }
@@ -5533,7 +5533,7 @@ a.rmv-btn i {
 .press_item {
     background: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
 }
 
@@ -5626,7 +5626,7 @@ a.rmv-btn i {
 
 .sign_form {
 	background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 50px 50px 30px;
     box-shadow: -0.083333333in 0.5pc 1.125pc -7px rgba(25,42,70,.13);
     flex: 1;
@@ -5856,7 +5856,7 @@ a.rmv-btn i {
     width: 100%;
     float: left;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     box-shadow: -0.083333333in 0.5pc 1.125pc -7px rgba(25,42,70,.13);
     transition: all .2s ease-in-out;
@@ -6030,7 +6030,7 @@ a.rmv-btn i {
     width: 100%;
     float: left;
     padding: 0 30px 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     box-shadow: -0.083333333in 0.5pc 1.125pc -7px rgba(25,42,70,.13);
     transition: all .2s ease-in-out;
@@ -6060,7 +6060,7 @@ a.rmv-btn i {
     width: 100%;
     float: left;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     transition: all .2s ease-in-out;
     margin-bottom: 30px;
@@ -6678,7 +6678,7 @@ a.rmv-btn i {
 
 .contact_link_step {
 	background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 30px;
     border: 1px solid #efefef;
     box-shadow: -0.083333333in 0.5pc 1.125pc -7px rgba(25,42,70,.13);
@@ -6703,7 +6703,7 @@ a.rmv-btn i {
 
 .contact_map {
 	background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     border: 1px solid #efefef;
     box-shadow: none;
@@ -6884,7 +6884,7 @@ a.rmv-btn i {
 
 .certilink__152 {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid #efefef;
     padding: 20px;
     box-shadow: none;
@@ -7107,7 +7107,7 @@ a.rmv-btn i {
     width: 100%;
     float: left;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-bottom: 50px;
     border: 1px solid #efefef;
     transition: all .2s ease-in-out;
@@ -7671,7 +7671,7 @@ a.rmv-btn i {
     font-size: 14px;
     transition: 0.3s;
     font-weight: 500;
-	    border-radius: 10px;
+	    border-radius: 3px;
     color: #333;
     padding: 15px;
     position: relative;
