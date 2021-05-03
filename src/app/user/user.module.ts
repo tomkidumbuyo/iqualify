@@ -11,6 +11,7 @@ import { UserComponent } from './user.component';
 import { CourseComponent } from './course/course.component';
 import { TopicComponent } from './topic/topic.component';
 import { LessonComponent } from './lesson/lesson.component';
+import { ScoreIllustrationComponent } from './shared/score-illustration/score-illustration.component';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { LessonComponent } from './lesson/lesson.component';
     UserComponent, 
     CourseComponent, 
     TopicComponent, 
-    LessonComponent
+    LessonComponent, ScoreIllustrationComponent
   ],
   imports: [
     CommonModule,

@@ -6,10 +6,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { RestorePasswordComponent } from './restore-password/restore-password.component';
+import { AuthenticationComponent } from './authentication.component';
 
 
 @NgModule({
-  declarations: [LoginComponent, RegisterComponent, ForgotPasswordComponent, RestorePasswordComponent],
+  declarations: [LoginComponent, RegisterComponent, ForgotPasswordComponent, RestorePasswordComponent, AuthenticationComponent],
   imports: [
     CommonModule,
     AuthenticationRoutingModule
