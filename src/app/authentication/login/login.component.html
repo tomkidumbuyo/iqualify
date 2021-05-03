@@ -1,32 +1,32 @@
-<div class="sign_form">
-    <h2>Welcome Back</h2>
-    <p>Log In to Your Edututs+ Account!</p>
-    <button class="social_lnk_btn color_btn_fb"><i class="uil uil-facebook-f"></i>Continue with Facebook</button>
-    <button class="social_lnk_btn mt-15 color_btn_tw"><i class="uil uil-twitter"></i>Continue with Twitter</button>
-    <button class="social_lnk_btn mt-15 color_btn_go"><i class="uil uil-google"></i>Continue with Google</button>
-    <form>
-    <div class="ui search focus mt-15">
-    <div class="ui left icon input swdh95">
-    <input class="prompt srch_explore" type="email" name="emailaddress" value="" id="id_email" required="" maxlength="64" placeholder="Email Address">
-    <i class="uil uil-envelope icon icon2"></i>
+<div class="page-single">
+    <div class="container">
+      <div class="row">
+        <div class="col col-login mx-auto">
+          <div class="text-center mb-6">
+            <img src="assets/images/logo.svg" class="h-6" alt="">
+          </div>
+          <form class="card" [formGroup]="loginForm" >
+            <div class="card-body p-6">
+              <div class="card-title">Login to your account</div>
+              <div class="form-group">
+                <label class="form-label">Email address</label>
+                <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label class="form-label">
+                  Password <a [routerLink]="['/auth/forgotPassword']" class="float-right small">I forgot password</a>
+                </label>
+                <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-footer">
+                <button type="submit" class="btn btn-primary btn-block" (click)="login()">Sign in</button>
+              </div>
+            </div>
+          </form>
+          <div class="text-center text-muted">
+            Don't have account yet? <a [routerLink]="['/auth/register']" >Sign up</a>.
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    <div class="ui search focus mt-15">
-    <div class="ui left icon input swdh95">
-    <input class="prompt srch_explore" type="password" name="password" value="" id="id_password" required="" maxlength="64" placeholder="Password">
-    <i class="uil uil-key-skeleton-alt icon icon2"></i>
-    </div>
-    </div>
-    <div class="ui form mt-30 checkbox_sign">
-    <div class="inline field">
-    <div class="ui checkbox mncheck">
-    <input type="checkbox" tabindex="0" class="hidden">
-    <label>Remember Me</label>
-    </div>
-    </div>
-    </div>
-    <button class="login-btn" type="submit">Sign In</button>
-    </form>
-    <p class="sgntrm145">Or <a href="forgot_password.html">Forgot Password</a>.</p>
-    <p class="mb-0 mt-30 hvsng145">Don't have an account? <a href="sign_up.html">Sign Up</a></p>
-    </div>
+  </div>

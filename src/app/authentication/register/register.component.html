@@ -1,32 +1,39 @@
-<div class="sign_form">
-    <h2>Welcome to Edututs+</h2>
-    <p>Sign Up and Start Learning!</p>
-    <form>
-    <div class="ui search focus">
-    <div class="ui left icon input swdh11 swdh19">
-    <input class="prompt srch_explore" type="text" name="fullname" value="" id="id_fullname" required="" maxlength="64" placeholder="Full Name">
+<div class="page-single">
+    <div class="container">
+      <div class="row">
+        <div class="col col-login mx-auto">
+          <div class="text-center mb-6">
+            <img src="assets/images/logo.svg" class="h-6" alt="">
+          </div>
+          <form class="card" [formGroup]="registerForm" (submit)="register()">
+            <div class="card-body p-6">
+              <div class="card-title">Create a new account</div>
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="email" formControlName="name"  class="form-control" placeholder="John Doe">
+                <control-messages [control]="registerForm.get('name')"></control-messages>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email address</label>
+                <input type="email" formControlName="email"  class="form-control " placeholder="example@mail.com">
+                <control-messages [control]="registerForm.get('email')"></control-messages>
+              </div>
+              <div class="form-group">
+                <label class="form-label">
+                  Password
+                </label>
+                <input type="password" formControlName="password"  class="form-control " placeholder="Password">
+                <control-messages [control]="registerForm.get('password')"></control-messages>
+              </div>
+              <div class="form-footer">
+                <button type="submit" class="btn btn-primary btn-block" [disabled]="!registerForm.valid">Sign in</button>
+              </div>
+            </div>
+          </form>
+          <div class="text-center text-muted">
+            Already Have an account ? <a [routerLink]="['/auth/login']" >Sign in</a>.
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    <div class="ui search focus mt-15">
-    <div class="ui left icon input swdh11 swdh19">
-    <input class="prompt srch_explore" type="email" name="emailaddress" value="" id="id_email" required="" maxlength="64" placeholder="Email Address">
-    </div>
-    </div>
-    <div class="ui search focus mt-15">
-    <div class="ui left icon input swdh11 swdh19">
-    <input class="prompt srch_explore" type="password" name="password" value="" id="id_password" required="" maxlength="64" placeholder="Password">
-    </div>
-    </div>
-    <div class="ui form mt-30 checkbox_sign">
-    <div class="inline field">
-    <div class="ui checkbox mncheck">
-    <input type="checkbox" tabindex="0" class="hidden">
-    <label>I’m in for emails with exciting discounts and personalized recommendations</label>
-    </div>
-    </div>
-    </div>
-    <button class="login-btn" type="submit">Next</button>
-    </form>
-    <p class="sgntrm145">By signing up, you agree to our <a href="terms_of_use.html">Terms of Use</a> and <a href="terms_of_use.html">Privacy Policy</a>.</p>
-    <p class="mb-0 mt-30">Already have an account? <a href="sign_in.html">Log In</a></p>
-    </div>
+  </div>

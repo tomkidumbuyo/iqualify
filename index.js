@@ -91,10 +91,11 @@ mongoose.connection.on("open", function(ref) {
 
 mongoose.connection.on("error", function(err) {
   console.log("Could not connect to mongo server!");
+  console.log('mongodb+srv://iqualify:' + process.env.DB_PASSWORD + '@cluster0.pzzln.mongodb.net/iqualify?retryWrites=true&w=majority');
   return console.log(err);
 });
 
-db = mongoose.connect('mongodb+srv://root:' + process.env.DB_PASSWORD + '@cluster0.pnv64.mongodb.net/soko?retryWrites=true&w=majority', {
+db = mongoose.connect('mongodb+srv://iqualify:' + process.env.DB_PASSWORD + '@cluster0.pzzln.mongodb.net/iqualify?retryWrites=true&w=majority', {
 // db = mongoose.connect('mongodb+srv://root:' + process.env.DB_PASSWORD + '@school-yxbkk.mongodb.net/amplify?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
