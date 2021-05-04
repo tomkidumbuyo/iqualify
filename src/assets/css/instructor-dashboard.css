@@ -327,6 +327,9 @@ header {
  width:135px;
  margin-left:20px
 }
+.main_logo > a > img{
+  height: 30px
+}
 .logo-inverse {
  display:none
 }

@@ -1,4 +1,5 @@
 <header class="header clearfix">
+    
     <button type="button" id="toggleMenu" class="toggle_menu">
     <i class='uil uil-bars'></i>
     </button>
@@ -13,57 +14,60 @@
    
     <div class="search120">
     <div class="ui search">
-    <div class="ui left icon input swdh10">
-    <input class="prompt srch10" type="text" placeholder="Search for Tuts Videos, Tutors, Tests and more..">
-    <i class='uil uil-search-alt icon icon1'></i>
-    </div>
+        <form class="input-icon my-3 my-lg-0">
+            <input type="search" class="form-control header-search" placeholder="Search…" tabindex="1">
+            <div class="input-icon-addon">
+              <i class="fe fe-search"></i>
+            </div>
+          </form>
     </div>
     </div>
     <div class="header_right">
     <ul>
     <li>
-    <a href="create_new_course.html" class="upload_btn btn btn-default" title="Create New Course">Create New Course</a>
+        <a [routerLink]="['/admin/course/new']" class="btn btn-sm btn-outline-primary" target="_blank">Create New Course</a>
+    
     </li>
+    <li>
+        <div class="dropdown">
+            <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+              <span class="avatar" style="background-image: url(./demo/faces/female/25.jpg)"></span>
+              <span class="ml-2 d-none d-lg-block">
+                <span class="text-default">Jane Pearson</span>
+                <small class="text-muted d-block mt-1">Administrator</small>
+              </span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+              <a class="dropdown-item" href="#">
+                <i class="dropdown-icon fe fe-user"></i> Profile
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="dropdown-icon fe fe-settings"></i> Settings
+              </a>
+              <a class="dropdown-item" href="#">
+                <span class="float-right"><span class="badge badge-primary">6</span></span>
+                <i class="dropdown-icon fe fe-mail"></i> Inbox
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="dropdown-icon fe fe-send"></i> Message
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <i class="dropdown-icon fe fe-help-circle"></i> Need help?
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="dropdown-icon fe fe-log-out"></i> Sign out
+              </a>
+            </div>
+          </div>
+    </li>
+</ul>
+
 
   
-    <li class="ui dropdown">
-    <a  class="opts_account" title="Account">
-    <img src="assets/images/hd_dp.jpg" alt="">
-    </a>
-    <div class="menu dropdown_account">
-    <div class="channel_my">
-    <div class="profile_link">
-    <img src="assets/images/hd_dp.jpg" alt="">
-    <div class="pd_content">
-    <div class="rhte85">
-    <h6>Joginder Singh</h6>
-    <div class="mef78" title="Verify">
-    <i class='uil uil-check-circle'></i>
+    
     </div>
-    </div>
-    <span><a href="../../cdn-cgi/l/email-protection.htm" class="__cf_email__" data-cfemail="d6b1b7bbb4b9baefe2e596b1bbb7bfbaf8b5b9bb">[email&#160;protected]</a></span>
-    </div>
-    </div>
-    <a href="my_instructor_profile_view.html" class="dp_link_12">View Instructor Profile</a>
-    </div>
-    <div class="night_mode_switch__btn">
-    <a  id="night-mode" class="btn-night-mode">
-    <i class="uil uil-moon"></i> Night mode
-    <span class="btn-night-mode-switch">
-    <span class="uk-switch-button"></span>
-    </span>
-    </a>
-    </div>
-    <a href="instructor_dashboard.html" class="item channel_item">Iqualify dashboard</a>
-    <a href="membership.html" class="item channel_item">Paid Memberships</a>
-    <a href="setting.html" class="item channel_item">Setting</a>
-    <a href="help.html" class="item channel_item">Help</a>
-    <a href="feedback.html" class="item channel_item">Send Feedback</a>
-    <a href="sign_in.html" class="item channel_item">Sign Out</a>
-    </div>
-    </li>
-    </ul>
-    </div>
+
     </header>
 
     <nav class="vertical_nav">
