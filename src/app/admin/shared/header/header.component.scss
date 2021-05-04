@@ -1,0 +1,31 @@
+.vertical-nav {
+    border-right: 1px solid rgba(0, 40, 100, 0.12);
+    width: 240px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    .menu-left {
+        position: absolute;
+        top: 80px;
+        bottom: 0;
+        overflow: hidden;
+        width: 240px;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        .menu-top {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right:0px;
+        }
+        .menu-bottom {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            border-top: 1px solid #efefef;
+        }
+    }
+}

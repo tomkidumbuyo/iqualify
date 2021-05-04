@@ -14,6 +14,7 @@ import { NotificationComponent } from './setting/notification/notification.compo
 import { PrivacyComponent } from './setting/privacy/privacy.component';
 import { BillingComponent } from './setting/billing/billing.component';
 import { CloseComponent } from './setting/close/close.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CloseComponent } from './setting/close/close.component';
     NotificationComponent,
     PrivacyComponent,
     BillingComponent,
-    CloseComponent
+    CloseComponent,
+    CartComponent
   ],
   imports: [
     CommonModule,
