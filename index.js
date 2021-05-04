@@ -66,14 +66,12 @@ expressApp.use(cors(corsOptions));
 const authRoutes = require('./routes/auth.js');
 const assetsRoutes = require('./routes/assets.js');
 const userRoutes = require('./routes/user.js');
-const adminRoutes = require('./routes/admin.js');
 
 
 // use routes
 expressApp.use('/api/auth', authRoutes);
 expressApp.use('/api/assets', assetsRoutes);
 expressApp.use('/api/user', userRoutes);
-expressApp.use('/api/admin', adminRoutes);
 
 
 // redirects to angular

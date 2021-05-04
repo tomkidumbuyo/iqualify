@@ -68,33 +68,20 @@
     <nav class="vertical-nav ">
         <div class="menu-left" id="js-menu">
         <div class="menu-top">
-
             <div class="list-group list-group-transparent mb-0">
                 <a [routerLink]="['/admin']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-grid"></i></span>Dashboard</a>
+                <a [routerLink]="['/admin/course']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-list"></i></span>Categories</a>
                 <a [routerLink]="['/admin/course']" class="list-group-item list-group-item-action active"><span class="icon mr-3"><i class="fe fe-user"></i></span>Courses</a>
-                <a [routerLink]="['/admin/analytics']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-plus-square"></i></span>Analyics</a>
-                <a [routerLink]="['/admin/course/new']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-feather"></i></span>Create Course</a>
-                <a [routerLink]="['/admin/earnings']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-image"></i></span>Earning</a>
-                
+                <a [routerLink]="['/admin/analytics']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-trending-up"></i></span>Analyics</a>
+                <a [routerLink]="['/admin/course/new']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-plus-square"></i></span>Create Course</a>
+                <a [routerLink]="['/admin/earnings']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-image"></i></span>Earning</a> 
               </div>
-            
-     
         </div>
         <div class="menu-bottom ">
-        <ul>
-        <li class="menu--item">
-        <a href="setting.html" class="menu--link" title="Setting">
-        <i class='uil uil-cog menu--icon'></i>
-        <span class="menu--label">Setting</span>
-        </a>
-        </li>
-        <!-- <li class="menu--item">
-        <a href="feedback.html" class="menu--link" title="Send Feedback">
-        <i class='uil uil-comment-alt-exclamation menu--icon'></i>
-        <span class="menu--label">Send Feedback</span>
-        </a>
-        </li> -->
-        </ul>
+            <div class="list-group list-group-transparent mb-0">
+                <a [routerLink]="['/user/setting']" class="list-group-item list-group-item-action" title="Setting"><span class="icon mr-3"><i class='fe fe-settings menu--icon'></i></span>Setting</a>
+                <a [routerLink]="['/user']" class="list-group-item list-group-item-action" title="Send Feedback"><span class="icon mr-3"><i class='fe fe-user menu--icon'></i></span>Profile</a>
+            </div>
         </div>
         </div>
-        </nav>
+    </nav>
