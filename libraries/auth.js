@@ -1,6 +1,7 @@
 const userModel = require('../models/user');
 const accessTokenModel = require('../models/access_token');
 const jwt = require('jsonwebtoken');
+const mailer = require('./mailer');
 
 /**
  *
@@ -31,7 +32,7 @@ function register (email, password, verify_password, req = false) {
                 reject(err);
                 return;
               }
-
+              
               if(req) {
                 login(email,password,req)
                 .then(data => {
