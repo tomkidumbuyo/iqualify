@@ -1,6 +1,5 @@
 import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LessonComponent } from '../user/lesson/lesson.component';
 import { AdminComponent } from './admin.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { AllComponent  as AllCoursesComponent }  from './courses/all/all.component';
@@ -9,6 +8,7 @@ import { NewComponent as NewCourseComponent} from './courses/new/new.component';
 import { SingleComponent as SingleCourseComponent } from './courses/single/single.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EarningsComponent } from './earnings/earnings.component';
+import { LessonComponent } from './lesson/lesson.component';
 
 const routes: Routes = [{
   path: 'admin',

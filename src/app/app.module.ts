@@ -14,6 +14,8 @@ import { RouterModule } from '@angular/router';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { SharedModule } from './shared/shared.module';
 import { ValidationService } from './_services/validation.service';
+import { LeanerComponent } from './leaner/leaner.component';
+import { LeanerModule } from './leaner/leaner.module';
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { ValidationService } from './_services/validation.service';
     BrowserModule,
     AppRoutingModule,
     UserModule,
+    LeanerModule,
     PublicModule,
     AuthenticationModule,
     AdminModule,
