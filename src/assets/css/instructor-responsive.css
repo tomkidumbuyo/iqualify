@@ -214,14 +214,6 @@ body::-webkit-scrollbar-thumb {
 html {
  font-size:14px
 }
-body {
- margin:0;
- 
- font-size:.875rem;
- line-height:1.42857143;
- color:#333;
- background:#f7f7f7!important
-}
 .menu_left::-webkit-scrollbar {
  width:4px
 }

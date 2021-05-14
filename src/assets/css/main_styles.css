@@ -281,6 +281,17 @@ section
 {
 	display: inline-block;	
 }
+
+.top_bar_auth
+{
+	display: inline-block;	
+	margin-left: 76px
+}
+
+.top_bar_auth .btn{
+	margin-right: 7px;
+}
+
 .lang_list
 {
 	display: inline-block;
@@ -343,8 +354,7 @@ section
 .top_bar_social
 {
 	display: inline-block;
-	margin-left: 79px;
-	margin-right: -6px;
+	margin-right: 0px;
 }
 .social_title
 {
@@ -1843,7 +1853,3 @@ section
 {
 	transform: translateX(5px);
 }
-
-/*********************************
-12. Footer
-*********************************/

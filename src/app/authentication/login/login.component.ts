@@ -47,7 +47,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     this.auth.isLoggedIn()
     .then((data) => {
-      this.router.navigate(['/']);
+      this.router.navigate(['/learner']);
     })
     .catch(err => {
       console.log('rejected', err);
