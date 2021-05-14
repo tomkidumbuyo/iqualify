@@ -273,7 +273,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 	font-size: 0.875rem;
 	line-height: 1.42857143;
 	color: #333;
@@ -2513,7 +2513,7 @@ i.icon2 {
 ._215b04 {
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     color: #f7f7f7;
     text-align: left;
     line-height: 26px;
@@ -2772,7 +2772,7 @@ i.icon2 {
 ._5f7g11 {
     display: block;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #686f7a;
     text-align: left;
@@ -2853,7 +2853,7 @@ i.icon2 {
 ._5f7g15 span {
     display: block;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #686f7a;
     text-align: left;
@@ -5265,7 +5265,7 @@ a.rmv-btn i {
 
 .cmpylink {
 	font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     color: #686f7a;
     text-align: left;
     margin-bottom: 0;
@@ -6528,7 +6528,7 @@ a.rmv-btn i {
     color: #fff;
     line-height: 1em;
 	display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .cmtk_dt .clock, .cmtk_dt .social-icons a:hover {
@@ -6655,7 +6655,7 @@ a.rmv-btn i {
 .vew120 .term_link14 {
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     line-height: 26px;
     color: #333;
     text-align: left;
@@ -6970,7 +6970,7 @@ a.rmv-btn i {
 .knowledge_dts p {
 	font-size: 14px;
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     line-height: 26px;
     color: #686f7a;
     text-align: center;

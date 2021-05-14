@@ -69,3 +69,5 @@ userSchema.methods.isValid = function(candidatePassword, cb) {
 };
 
 module.exports = mongoose.model('user', userSchema, 'users');
+
+

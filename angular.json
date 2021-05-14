@@ -29,7 +29,10 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/main_styles.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/instructor-responsive.css"
             ],
             "scripts": []
           },

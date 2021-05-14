@@ -9,13 +9,13 @@ import { MyCoursesComponent } from './my-courses/my-courses.component';
 import { TopicComponent } from './topic/topic.component';
 
 const routes: Routes = [{
-  path: '',
-  redirectTo: 'leaner/home',
-  pathMatch: 'full'
-},{
   path: 'leaner',
   component: LeanerComponent,
   children: [{
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  }, {
     path: 'home',
     component: DashboardComponent,
     children: [{
