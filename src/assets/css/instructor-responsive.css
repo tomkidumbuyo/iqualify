@@ -1870,15 +1870,7 @@ table {
  flex:0 0 25%;
  max-width:0 0 25%
 }
-#add-course-tab .step-steps>li:before {
- background-color:#ededed;
- height:8px;
- left:50%;
- top:18px;
- width:100%;
- -webkit-transition:all .3s;
- transition:all .3s
-}
+
 #add-course-tab .step-steps>li>a>.number {
  width:24px;
  height:24px;
@@ -1932,7 +1924,7 @@ table {
  -ms-filter:"alpha(opacity=80)";
  border:0 solid;
  border-radius:0;
- padding-top:60px
+ padding-top:0px
 }
 #add-course-tab>.step-content .title-icon {
  margin-bottom:25px
@@ -2040,7 +2032,7 @@ table {
  margin-bottom:0
 }
 .course_tabs_1 {
- margin-top:60px
+ margin-top:30px
 }
 .title-icon {
  border-bottom:1px solid #efefef;

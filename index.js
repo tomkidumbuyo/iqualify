@@ -99,12 +99,13 @@ db = mongoose.connect('mongodb+srv://iqualify:' + process.env.DB_PASSWORD + '@cl
   useUnifiedTopology: true,
   socketTimeoutMS: 30000,
   keepAlive: true,
-});
+}); 
 
 //init the server
 expressApp.listen(port, () => {
    console.log(`listening on port ${port}`);
 });
+
 
 module.exports = expressApp;
 

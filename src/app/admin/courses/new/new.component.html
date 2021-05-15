@@ -1,42 +1,47 @@
 <div class="sa4d25">
     <div class="container">
     <div class="row">
-    <div class="col-lg-12">
-    <h2 class="st_title"><i class="uil uil-analysis"></i> Create New Course</h2>
+    <div class="col-lg-12 pt-5">
+    <h2 class="st_title "><i class="uil uil-analysis"></i> Create New Course</h2>
     </div>
     </div>
     <div class="row">
     <div class="col-12">
     <div class="course_tabs_1">
+
+
     <div id="add-course-tab" class="step-app">
+
     <ul class="step-steps">
-    <li class="active">
-    <a href="create_new_course.html#tab_step1">
+    <li class="{{ step > 1 ? 'completed' : step == 1 ? 'active' : '' }}">
+    <a style="padding-left: 0 !important;">
     <span class="number"></span>
     <span class="step-name">General Information</span>
     </a>
     </li>
-    <li>
-    <a href="create_new_course.html#tab_step2">
+    <li class="{{ step > 2 ? 'completed' : step == 2 ? 'active' : '' }}">
+    <a >
     <span class="number"></span>
     <span class="step-name">View</span>
     </a>
     </li>
-    <li>
-    <a href="create_new_course.html#tab_step3">
+    <li class="{{ step > 3 ? 'completed' : step == 3 ? 'active' : '' }}">
+    <a >
     <span class="number"></span>
     <span class="step-name">Course Content</span>
     </a>
     </li>
-    <li>
-    <a href="create_new_course.html#tab_step4">
+    <li class="{{ step > 4 ? 'completed' : step == 4 ? 'active' : '' }}">
+    <a >
     <span class="number"></span>
     <span class="step-name">Extra Information</span>
     </a>
     </li>
     </ul>
+
+
     <div class="step-content">
-    <div class="step-tab-panel step-tab-info" id="tab_step1">
+    <div *ngIf="step == 1" class="step-tab-panel step-tab-info" id="tab_step1">
     <div class="tab-from-content">
     <div class="title-icon">
     <h3 class="title"><i class="uil uil-info-circle"></i>General Information</h3>
@@ -217,7 +222,7 @@
     </div>
     </div>
     </div>
-    <div class="step-tab-panel step-tab-gallery" id="tab_step2">
+    <div *ngIf="step == 2" class="step-tab-panel step-tab-gallery" id="tab_step2">
     <div class="tab-from-content">
     <div class="title-icon">
     <h3 class="title"><i class="uil uil-image-upload"></i>View</h3>
@@ -270,7 +275,7 @@
     </div>
     </div>
     </div>
-    <div class="step-tab-panel step-tab-location" id="tab_step3">
+    <div *ngIf="step == 3" class="step-tab-panel step-tab-location" id="tab_step3">
     <div class="tab-from-content">
     <div class="title-icon">
     <h3 class="title"><i class="uil uil-film"></i>Course Content</h3>
@@ -455,7 +460,7 @@
     </div>
     </div>
     </div>
-    <div class="step-tab-panel step-tab-amenities" id="tab_step4">
+    <div *ngIf="step == 4" class="step-tab-panel step-tab-amenities" id="tab_step4">
     <div class="tab-from-content">
     <div class="title-icon">
     <h3 class="title"><i class="uil uil-file-copy-alt"></i>Extra Information</h3>
@@ -556,11 +561,13 @@
     </div>
     </div>
     </div>
-    <div class="step-footer step-tab-pager">
-    <button data-direction="prev" class="btn btn-default steps_btn" style="display: none;">PREVIOUS</button>
-    <button data-direction="next" class="btn btn-default steps_btn">Next</button>
-    <button data-direction="finish" class="btn btn-default steps_btn" style="display: none;">Submit for Review</button>
+
+    <div class="step-footer step-tab-pager mb-5">
+    <button class="btn btn-primary pull-right" *ngIf="step > 1" (click)="previousStep()">Previous</button>
+    <button class="btn btn-primary pull-right" *ngIf="step < 4" (click)="nextStep()">Next</button>
+    <button class="btn btn-primary pull-right" *ngIf="step == 4" >Submit for Review</button>
     </div>
+
     </div>
     </div>
     </div>

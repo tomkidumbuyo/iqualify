@@ -1,38 +1,32 @@
 <header class="header clearfix">
+  <div class="container">
     <div class="main_logo" id="logo">
     <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
     <a href="index.html"><img class="logo-inverse" src="assets/images/ct_logo.svg" alt=""></a>
     </div>
-    <div class="top-category">
-    <div class="ui compact menu cate-dpdwn">
-    <div class="ui simple dropdown item">
-    <a  class="option_links p-0" title="categories"><i class="fe fe-grid"></i></a>
-    <div class="menu dropdown_category5">
-    <a  class="item channel_item">Development</a>
-    <a  class="item channel_item">Business</a>
-    <a  class="item channel_item">Finance & Accounting</a>
-    <a  class="item channel_item">IT & Software</a>
-    <a  class="item channel_item">Office Productivity</a>
-    <a  class="item channel_item">Personal Development</a>
-    <a  class="item channel_item">Design</a>
-    <a  class="item channel_item">Marketing</a>
-    <a  class="item channel_item">Lifestyle</a>
-    <a  class="item channel_item">Photography</a>
-    <a  class="item channel_item">Health & Fitness</a>
-    <a  class="item channel_item">Music</a>
-    <a  class="item channel_item">Teaching & Academics</a>
-    </div>
-    </div>
-    </div>
-    </div>
+
     <div class="search120">
     <div class="ui search">
-        <form class="input-icon my-3 my-lg-0">
-            <input type="search" class="form-control header-search" placeholder="Search…" tabindex="1">
+      <form class="input-icon my-3 my-lg-0">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <button type="button" class="btn btn-secondary dropdown-toggle" (click)="toggleMenu()">
+            Courses
+          </button>
+        
+        </div>
+        
+        <input type="search" class="form-control header-search" placeholder="Search…" tabindex="1">
             <div class="input-icon-addon">
               <i class="fe fe-search"></i>
             </div>
-          </form>
+       
+      </div>
+    </form>
+
+        
+            
+        
     </div>
     </div>
     <div class="header_right">
@@ -104,4 +98,28 @@
     </li>
     </ul>
     </div>
+  </div>
 </header>
+
+<div class="full-menu" *ngIf="menuVisible">
+  <span class="fe fe-x close" (click)="toggleMenu()"></span>
+  <div class="container">
+  
+    <div class=" row" >
+      <div class="dropdown-column col-md-3 mb-2 mb-lg-0">
+        <h5 class="dropdown-header">Blog</h5>
+        <a class="dropdown-item" href="blog-grid-rs.html">Grid Right Sidebar</a><a class="dropdown-item" href="blog-grid-ls.html">Grid Left Sidebar</a><a class="dropdown-item" href="blog-grid-ns.html">Grid No Sidebar</a><a class="dropdown-item" href="blog-list-rs.html">List Right Sidebar</a><a class="dropdown-item" href="blog-list-ls.html">List Left Sidebar</a><a class="dropdown-item" href="blog-list-ns.html">List No Sidebar</a><a class="dropdown-item" href="blog-single-rs.html">Single Post Right Sidebar</a><a class="dropdown-item" href="blog-single-ls.html">Single Post Left Sidebar</a><a class="dropdown-item" href="blog-single-ns.html">Single Post No Sidebar</a>
+      </div>
+      <div class="dropdown-column col-md-3 mb-2 mb-lg-0">
+        <h5 class="dropdown-header">Portfolio</h5><a class="dropdown-item" href="portfolio-style-1.html">Grid Style 1</a><a class="dropdown-item" href="portfolio-style-2.html">Grid Style 2</a><a class="dropdown-item" href="portfolio-style-3.html">Grid Style 3</a><a class="dropdown-item" href="portfolio-single-side-gallery-grid.html">Project Side Gallery (Grid)</a><a class="dropdown-item" href="portfolio-single-side-gallery-list.html">Project Side Gallery (List)</a><a class="dropdown-item" href="portfolio-single-carousel.html">Project Carousel</a><a class="dropdown-item" href="portfolio-single-wide-gallery.html">Project Wide Gallery</a>
+      </div>
+      <div class="dropdown-column col-md-3 mb-2 mb-lg-0">
+        <h5 class="dropdown-header">Shop</h5><a class="dropdown-item" href="shop-ls.html">Grid Left Sidebar</a><a class="dropdown-item" href="shop-rs.html">Grid Right Sidebar</a><a class="dropdown-item" href="shop-ns.html">Grid No Sidebar</a><a class="dropdown-item" href="shop-single.html">Single Product</a><a class="dropdown-item" href="checkout.html">Cart &amp; Checkout</a><a class="dropdown-item" href="order-tracking.html">Order Tracking</a>
+      </div>
+      <div class="dropdown-column col-md-3 mb-2 mb-lg-0">
+        <h5 class="dropdown-header">Shop</h5><a class="dropdown-item" href="shop-ls.html">Grid Left Sidebar</a><a class="dropdown-item" href="shop-rs.html">Grid Right Sidebar</a><a class="dropdown-item" href="shop-ns.html">Grid No Sidebar</a><a class="dropdown-item" href="shop-single.html">Single Product</a><a class="dropdown-item" href="checkout.html">Cart &amp; Checkout</a><a class="dropdown-item" href="order-tracking.html">Order Tracking</a>
+      </div>
+    </div>
+  
+  </div>
+</div>

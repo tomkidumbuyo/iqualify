@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   user: any = {};
   headerDataObserver: any;
   page: string;
+  menuVisible = false;
 
   constructor(
     private auth: AuthenticationService,
@@ -42,6 +43,11 @@ export class HeaderComponent implements OnInit {
   logout() {
     this.auth.logout();
     this.router.navigate(['/auth']);
+  }
+
+  toggleMenu() {
+    console.log('here')
+    this.menuVisible = this.menuVisible == false ? true : false;
   }
 
 }
