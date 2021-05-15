@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs/internal/Subject';
+import { Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class HeaderService {
+export class AdminService {
 
   private dataSource = new Subject();
   page: string;
+
 
   constructor() { }
 
@@ -30,6 +31,5 @@ export class HeaderService {
       page: this.page,
     });
   }
-  
   
 }

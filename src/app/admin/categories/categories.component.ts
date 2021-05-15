@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AdminService } from 'src/app/_services/admin.service';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-categories',
+  templateUrl: './categories.component.html',
+  styleUrls: ['./categories.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class CategoriesComponent implements OnInit {
 
   adminDataObserver: any;
 
@@ -19,7 +19,7 @@ export class DashboardComponent implements OnInit {
         console.log('observarable', data);
       }
     );
-    this.adminService.setPage('dashboard')
+    this.adminService.setPage('categories')
   }
 
   ngOnInit(): void {

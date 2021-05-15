@@ -1,5 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CategoriesComponent } from './categories/categories.component';
+import { UsersComponent } from './users/users.component';
 import { AdminComponent } from './admin.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { AllComponent  as AllCoursesComponent }  from './courses/all/all.component';
@@ -41,6 +43,12 @@ const routes: Routes = [{
   },  {
     path: 'analytics',
     component: AnalyticsComponent
+  },  {
+    path: 'categories',
+    component: CategoriesComponent
+  },  {
+    path: 'users',
+    component: UsersComponent
   }]
 }];
 

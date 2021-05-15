@@ -22,6 +22,14 @@
             top: 0px;
             left: 0px;
             right:0px;
+            .list-group{
+                .list-group-item {
+                    background: none;
+                    border: 0;
+                    padding: 1rem 1rem;
+                    border-radius: 3px;
+                }
+            }
         }
         .menu-bottom {
             position: absolute;
@@ -29,6 +37,25 @@
             left: 0px;
             right: 0px;
             border-top: 1px solid #efefef;
+            .list-group{
+                .list-group-item {
+                    background: none;
+                    border: 0;
+                    padding: 1rem 1rem;
+                    border-radius: 3px;
+                    .icon {
+                        .menu--icon {
+                            display: block;
+                            float: left;
+                            width: 50px;
+                            height: 45px;
+                            line-height: 43px;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         }
     }
 }

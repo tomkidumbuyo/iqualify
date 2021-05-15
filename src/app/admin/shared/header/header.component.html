@@ -69,19 +69,19 @@
         <div class="menu-left" id="js-menu">
         <div class="menu-top">
             <div class="list-group list-group-transparent mb-0">
-                <a [routerLink]="['/admin']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-grid"></i></span>Dashboard</a>
-                <a [routerLink]="['/admin/course']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-list"></i></span>Categories</a>
-                <a [routerLink]="['/admin/course']" class="list-group-item list-group-item-action active"><span class="icon mr-3"><i class="fe fe-book"></i></span>Courses</a>
-                <a [routerLink]="['/admin/analytics']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-trending-up"></i></span>Analyics</a>
-                <a [routerLink]="['/admin/course/new']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-plus-square"></i></span>Create Course</a>
-                <a [routerLink]="['/admin/earnings']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-dollar-sign"></i></span>Earning</a>
-                <a [routerLink]="['/admin/earnings']" class="list-group-item list-group-item-action"><span class="icon mr-3"><i class="fe fe-users"></i></span>Users</a>  
+                <a [routerLink]="['/admin']" class="list-group-item list-group-item-action {{page == 'dashboard' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-grid"></i></span>Dashboard</a>
+                <a [routerLink]="['/admin/categories']" class="list-group-item list-group-item-action {{page == 'categories' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-list"></i></span>Categories</a>
+                <a [routerLink]="['/admin/course']" class="list-group-item list-group-item-action {{page == 'courses' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-book"></i></span>Courses</a>
+                <a [routerLink]="['/admin/analytics']" class="list-group-item list-group-item-action {{page == 'analytics' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-trending-up"></i></span>Analyics</a>
+                <a [routerLink]="['/admin/course/new']" class="list-group-item list-group-item-action {{page == '' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-plus-square"></i></span>Create Course</a>
+                <a [routerLink]="['/admin/earnings']" class="list-group-item list-group-item-action {{page == 'earnings' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-dollar-sign"></i></span>Earning</a>
+                <a [routerLink]="['/admin/users']" class="list-group-item list-group-item-action {{page == 'users' ? 'active' : '' }}"><span class="icon mr-3"><i class="fe fe-users"></i></span>Users</a>  
               </div>
         </div>
         <div class="menu-bottom ">
             <div class="list-group list-group-transparent mb-0">
-                <a [routerLink]="['/user/setting']" class="list-group-item list-group-item-action" title="Setting"><span class="icon mr-3"><i class='fe fe-settings menu--icon'></i></span>Setting</a>
-                <a [routerLink]="['/user']" class="list-group-item list-group-item-action" title="Send Feedback"><span class="icon mr-3"><i class='fe fe-user menu--icon'></i></span>Profile</a>
+                <a [routerLink]="['/user/setting']" class="list-group-item list-group-item-action" title="Setting"><span class="icon mr-3"><i class='fe fe-settings'></i></span>Setting</a>
+                <a [routerLink]="['/user']" class="list-group-item list-group-item-action" title="Send Feedback"><span class="icon mr-3"><i class='fe fe-user'></i></span>Profile</a>
             </div>
         </div>
         </div>

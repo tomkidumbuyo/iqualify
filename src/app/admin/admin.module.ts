@@ -18,6 +18,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { AdminComponent } from './admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
+import { CategoriesComponent } from './categories/categories.component';
+import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
@@ -35,7 +37,7 @@ import { SharedModule } from '../shared/shared.module';
     EarningsComponent, 
     LessonComponent, 
     AnalyticsComponent, 
-    AdminComponent, DashboardComponent],
+    AdminComponent, DashboardComponent, CategoriesComponent, UsersComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
