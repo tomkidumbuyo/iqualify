@@ -7,10 +7,13 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { PublicComponent } from './public.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { CourseComponent } from './course/course.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, LandingComponent, PublicComponent, CoursesComponent],
+  declarations: [HeaderComponent, FooterComponent, LandingComponent, PublicComponent, CoursesComponent, CategoriesComponent, CourseComponent, CategoryComponent],
   imports: [
     CommonModule,
     PublicRoutingModule
