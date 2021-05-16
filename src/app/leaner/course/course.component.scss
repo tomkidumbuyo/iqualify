@@ -11,10 +11,135 @@
     }
 }
 
-.topic-card {
-    border: 1px solid #eee;
-    background: #fff;
-    border-radius: 6px;
-    padding: 20px;
-    margin: 20px;
+.topic-card{
+    margin-top: 20px;
+    .card-header{
+        h3.card-title {
+            font-weight: 700;
+            margin-top: 0px;
+            font-weight: 15px;
+        }
+    }
+    .card-body {
+
+        h6.title{
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: #999;
+        }
+
+        .lesson-side {
+            ul.videos-list {
+                li{
+                    cursor: pointer;
+                    position: relative;
+                    display: block;
+                    min-height: 41px;
+                    padding: 10px;
+                    padding-left: 40px;
+                    .video-icon{ 
+                        position: absolute;
+                        display: block;
+                        left: 5px;
+                        top: 5px;
+                        border: 2px solid #ccc;
+                        background: #eee;
+                        border-radius: 4px;
+                        padding: 3px 4px 2px 5px;
+                        span {
+                            font-size: 12px;
+                            color: #000000
+                        }
+                    }
+                }
+
+                li.active{
+                    color: #000;
+                    .video-icon{ 
+                        background-color: rgba(52, 152, 219,.2);
+                        border: 2px solid #3498db;
+                        padding: 3px 4px 2px 5px;
+                        span {
+                            color: #000;
+                        }
+                    }
+                }
+
+                li.done{
+                    font-weight: 700;
+                    .video-icon{ 
+                        background-color: #3498db;
+                        border: 0px;
+                        padding: 5px 6px 4px 7px;
+                        span {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .practice-side {
+            
+            .pratice-div {
+                padding: 10px 90px 10px 10px;
+                position: relative;
+                background: #ededed;
+                border-radius: 6px;
+                h6{
+                    color: #000000;
+                }
+                span {
+                    color: #999;
+                }
+                .score {
+                    width: 80px;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    bottom: 0px;
+                    border-left: 1px solid #bbb;
+
+                    .score-center{
+                        width: 40px;
+                        height: fit-content;
+                        margin: 0;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        span.percentage-number {
+                            text-align: center;
+                            font-size: 15px;
+                            font-weight: 700;
+                            margin-bottom: 7px;
+                            color: #2c3e50;
+                            display: block;
+                            font-family: montserrat;
+                        }
+                        .percentage-wrap {
+                            width: 40px;
+                            height: 5px;
+                            position: relative;
+                            border-radius: 3px;
+                            background-color: #bdc3c7;
+                            .parcentage-bar{
+                                position: absolute;
+                                left: 0px;
+                                border-radius: 3px;
+                                top: 0px;
+                                height: 5px;
+                                width: 30%;
+                                background-color: #2980b9;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pratice-div.done {
+                border-top: 4px solid #3498db;
+                padding-top: 6px;
+            }
+        }
+    }
 }
