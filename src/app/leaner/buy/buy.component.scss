@@ -1,0 +1,61 @@
+.course-header{
+    background: #555;
+    min-height: 250px;
+    padding: 30px 0px;
+    color: #fff;
+    .course-summary {
+        h1 {
+            color: #fff;
+            font-weight: bold;
+        }
+        p {
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 17px;
+        }
+        button.btn-secondary-outline {
+            border: #fff 1px solid;
+            color: #fff;
+            margin-right: 10px;
+        }
+    }
+}
+.course-body{
+    .purchase-card-wrapper {
+        position: relative;
+        .purchase-card{
+            position: absolute;
+            top: -210px;
+            .course-video{
+                height: 200px;
+                background: #000;
+                border-radius: 3px;
+            }
+            .card-body {
+                padding: 25px;
+                .course-price{
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                h4 {
+
+                }
+                ul.course-includes {
+                    li {
+                        padding: 5px 0px;
+                        span {
+
+                        }
+                    }
+                }
+            }
+
+            .course-includes {
+
+            }
+        }
+    }
+    
+}

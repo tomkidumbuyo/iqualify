@@ -12,6 +12,8 @@ import { ScoreIllustrationComponent } from './shared/score-illustration/score-il
 import { TopicComponent } from './topic/topic.component';
 import { LeanerRoutingModule } from './leaner-routing.module'
 import { SharedModule } from '../shared/shared.module';
+import { BuyComponent } from './buy/buy.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -26,7 +28,7 @@ import { SharedModule } from '../shared/shared.module';
     CourseComponent, 
     TopicComponent, 
     LessonComponent, 
-    ScoreIllustrationComponent
+    ScoreIllustrationComponent, BuyComponent, HomeComponent
   ],
   imports: [
     CommonModule,
