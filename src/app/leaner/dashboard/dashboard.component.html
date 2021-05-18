@@ -3,9 +3,10 @@
         <div class="col-md-3">
             <nav class="dash-side-nav" data-test-id="side-nav">
                 <section >
-                    <h2>My stuff</h2>
+                    <h2>Course</h2>
                     <ul>
-                        <li class="active"><a>Courses</a></li>
+                        <li class="active"><a [routerLink]="['/leaner/home']">All Courses</a></li>
+                        <li><a [routerLink]="['/leaner/home/mycourses']">My Courses</a></li>
                     </ul>
                 </section>
                 <section >
@@ -19,73 +20,7 @@
             </nav>
         </div>
         <div class="col-md-9 dash-main">
-            <h1>My courses</h1>
-
-            <div class="row">
-                <div class="col-md-6 dash-course-tile">
-                    <div class="header clearfix">
-                        <h3>Arithmetic</h3>
-                        <a href="">See all (5)</a>
-                    </div>
-                    <div class="body">
-                        <ul>
-                            <li>
-                                <div class="topic-logo"><span class="before"></span><span class="after"></span><img src="" alt="" class="rounded"></div>
-                                
-                                    <h6 class="title">Additional and substractio</h6>
-                                    <span class="subtitle">100% mastered</span>
-                                
-                               
-                            </li>
-                            <li>
-                                <div class="topic-logo"><span class="before"></span><span class="after"></span><img src="" alt="" class="rounded"></div>
-                                
-                                    <h6 class="title">Additional and substractio</h6>
-                                    <span class="subtitle">100% mastered</span>
-                                
-                                
-                            </li>
-                            <li>
-                                <div class="topic-logo"><span class="before"></span><span class="after"></span><img src="" alt="" class="rounded"></div>
-                                
-                                    <h6 class="title">Additional and substractio</h6>
-                                    <span class="subtitle">60% mastered</span>
-                                
-                                <button class="btn btn-primary resume-button">Resume</button>
-                            </li>
-                            <li>
-                                <div class="topic-logo"><span class="before"></span><span class="after"></span><img src="" alt="" class="rounded"></div>
-                                
-                                    <h6 class="title">Additional and substractio</h6>
-                                    
-                                
-                               
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-            <hr>
-            <h4>RESUME LEARNING</h4>
-            <div class="row">
-                
-                <div class="col-md-3 lesson-tile">
-                    <img src="" alt="" class="rounded">
-                    <h5>Addition and substraction within 20</h5>
-                    <a href="">Addition and substraction</a>
-                </div>
-                <div class="col-md-3 lesson-tile">
-                    <img src="" alt="" class="rounded">
-                    <h5>Addition and substraction within 20</h5>
-                    <a href="">Addition and substraction</a>
-                </div>
-            </div>
-
-
-
-
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>

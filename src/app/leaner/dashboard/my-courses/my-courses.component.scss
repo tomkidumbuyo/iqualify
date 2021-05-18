@@ -1,0 +1,95 @@
+.dash-course-tile {
+    margin-bottom: 20px;
+    .header {
+        background: transparent;
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 10px;
+        h3 {
+            float: left;
+            margin-bottom: 0px;
+        }
+        a {
+            float: right;
+        }
+    }
+    
+    .body {
+        ul {
+            margin-top: 20px;
+            li:first-child {
+                .topic-logo {
+                    .after{
+                        top: 20px; 
+                    }
+                }
+            }
+            li:last-child {
+                .topic-logo {
+                    .after{
+                        height: 20px;
+                        bottom: auto;
+                    }
+                }
+            }
+            li {
+                position: relative;
+                padding: 10px 80px 10px 60px;
+                .topic-logo {
+                    position: absolute;
+                    left: 10px;
+                    top:0px;
+                    bottom: 0px;
+                    width: 50px;
+                    .before{
+                        position: absolute;
+                        top: 0px
+                    }
+                    .after{
+                        position: absolute;
+                        bottom: 0px;
+                        top: 0px;
+                        width: 3px;
+                        left: 19px;
+                        border-left: 3px solid #bcbcbc;
+                    }
+                    img.rounded {
+                        position: absolute;
+                        left: 0px;
+                        top: 10px;
+                        background-color: #1865f2;
+                        width: 40px;
+                        height: 40px;
+                        border-radius:40px !important;
+                    }
+                }
+                
+                    h6.title{
+                        margin-bottom: 0px;
+                    }
+                    span.subtitle{
+                        font-size: .8em;
+                        color: #aaaaaa;
+                    }
+                
+                button.btn.resume-button{
+                    position: absolute;
+                    right: 0px;
+                    top: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.lesson-tile {
+    img {
+        background: #1865f2;
+        min-height: 100px;
+        width: 100%;
+    }
+    h5 {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+}
