@@ -1,25 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-2">
-            <nav class="dash-side-nav" data-test-id="side-nav">
-                <section >
-                    <h2>Course</h2>
-                    <ul>
-                        <li class="active"><a [routerLink]="['/leaner/home']">All Courses</a></li>
-                        <li><a [routerLink]="['/leaner/home/mycourses']">My Courses</a></li>
-                    </ul>
-                </section>
-                <section >
-                    <!-- <h2 >My account</h2>
-                    <ul>
-                        <li><a>Progress</a> </li>
-                        <li><a>Profile</a></li>
-                        <li><a>Teachers</a></li>
-                    </ul> -->
-                </section>
-            </nav>
-        </div>
-        <div class="col-md-10 dash-main">
+        <div class="col-md-12 dash-main">
             <router-outlet></router-outlet>
         </div>
     </div>
