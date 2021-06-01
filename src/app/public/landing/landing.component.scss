@@ -330,7 +330,7 @@ section {
     font-size: 24px;
     font-weight: 700;
     line-height: 0.75;
-    color: #2e21df;
+    color: #16a085;
     vertical-align: middle;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -416,7 +416,7 @@ section {
     opacity: 0;
 }
 .header_search_input:focus {
-    border-bottom: solid 2px #2e21df !important;
+    border-bottom: solid 2px #16a085 !important;
 }
 .header_search_input::-webkit-input-placeholder {
     font-family: "Poppins", sans-serif;
@@ -508,7 +508,7 @@ section {
     transition: all 200ms ease;
 }
 .hamburger:hover i {
-    color: #2e21df;
+    color: #16a085;
 }
 .menu {
     position: fixed;
@@ -590,7 +590,7 @@ section {
     transition: all 200ms ease;
 }
 .menu_nav ul li a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .menu .search {
     width: 100%;
@@ -656,7 +656,7 @@ section {
     color: rgba(0, 0, 0, 0.15) !important;
 }
 .menu .search_input:focus {
-    border-bottom: solid 2px #2e21df;
+    border-bottom: solid 2px #16a085;
 }
 .header_search_button {
     position: absolute;
@@ -743,7 +743,7 @@ section {
 .home_button {
     width: 225px;
     height: 43px;
-    background: #2e21df;
+    background: #16a085;
     text-align: center;
     border-radius: 3px;
     margin-left: auto;
@@ -891,7 +891,7 @@ section {
     transition: all 200ms ease;
 }
 .course_title a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .course_info {
     margin-top: 5px;
@@ -911,7 +911,7 @@ section {
     transition: all 200ms ease;
 }
 .course_info ul li a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .course_info ul li:not(:last-child)::after {
     display: inline-block;
@@ -970,7 +970,7 @@ section {
     line-height: 25px;
 }
 .course_free {
-    background: #2e21df;
+    background: #16a085;
 }
 .instructors {
     width: 100%;
@@ -1032,7 +1032,7 @@ section {
     transition: all 200ms ease;
 }
 .instructor_name a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .instructor_title {
     font-size: 14px;
@@ -1112,7 +1112,7 @@ section {
 }
 .form_input:hover,
 .form_input:focus {
-    border-bottom: solid 2px #2e21df;
+    border-bottom: solid 2px #16a085;
 }
 .form_input::-webkit-input-placeholder {
     font-size: 14px !important;
@@ -1187,7 +1187,7 @@ section {
 .form_button {
     width: 100%;
     height: 43px;
-    background: #2e21df;
+    background: #16a085;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -1315,12 +1315,12 @@ section {
     transition: all 200ms ease;
 }
 .event_title a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .event_tag {
     width: 61px;
     height: 25px;
-    background: #2e21df;
+    background: #16a085;
     border-radius: 3px;
     font-size: 12px;
     text-align: center;
@@ -1448,7 +1448,7 @@ section {
     transition: all 200ms ease;
 }
 .blog_right_category a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .blog_right_title {
     padding-left: 1px;
@@ -1465,7 +1465,7 @@ section {
     transition: all 200ms ease;
 }
 .blog_right_title a:hover {
-    color: #2e21df;
+    color: #16a085;
 }
 .blog_right_text {
     margin-top: 16px;
@@ -1481,7 +1481,7 @@ section {
 .read_more a {
     font-size: 14px;
     font-weight: 500;
-    color: #2e21df;
+    color: #16a085;
 }
 .read_more img {
     display: inline-block;
@@ -1642,7 +1642,7 @@ section {
     border-bottom: solid 1px #fff;
 }
 .newsletter_input:focus {
-    border-bottom: solid 1px #2e21df !important;
+    border-bottom: solid 1px #16a085 !important;
 }
 .newsletter_form:hover .newsletter_button i {
     color: #fff;

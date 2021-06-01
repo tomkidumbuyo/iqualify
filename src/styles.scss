@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+.top_bar {
+    width: 100%;
+    background: #16a085 !important;
+    border-bottom: solid 1px #1abc9c !important;
+    z-index: 10;
+    color: #fff;
+
+    .top_bar_social {
+        ul {
+            li {
+                a {
+                    i {
+                        font-size: 12px;
+                        color: rgba(255,255,255,0.7);
+                        padding: 6px;
+                        transition: all 200ms ease;
+                    }
+                }
+            }
+        }
+    }
+    
+    .top_bar_content {
+        color: rgba(255,255,255,0.7);
+    }
+
+    .top_bar_auth {
+
+        .btn {
+            margin-right: 7px;
+            font-weight: bold;
+            width: 100px;
+        }
+        .btn-secondary{
+            border-color: #1abc9c;
+            background-color: #16a085;
+            color: rgba(255,255,255,0.8);
+        }
+        .btn-primary {
+            border-color: #fff;
+            background-color: #fff;
+            color: #16a085;
+        }
+
+    }
+
+}
+.header_container {
+    width: 100%;
+    background: #16a085 !important;
+    .logo_text {
+        color: #fff;
+    }
+    .search_form_container {
+        background: transparent;
+    }
+
+    .main_nav li a:hover, .main_nav li.active a {
+        color: rgba(255,255,255,0.8);
+    }
+    .main_nav li a {
+     
+        color: rgba(255,255,255,0.45);
+        
+    }
+}

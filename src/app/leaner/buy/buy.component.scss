@@ -59,3 +59,24 @@
     }
     
 }
+
+.course-content {
+    border: #ccc 1px solid;
+    background-color: rgba($color: #000000, $alpha: .1);
+    border-radius: 5px;
+    padding: 20px 30px 30px 30px !important;
+    h2 {
+        margin-left: 0px;
+        margin-bottom: 40px !important;
+    }
+    .course-content-column {
+        margin-bottom: 20px;
+        .fe {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}

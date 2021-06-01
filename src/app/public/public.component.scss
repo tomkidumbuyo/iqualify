@@ -446,7 +446,7 @@ section
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 0.75;
-	color: #2e21df;
+	color: #16a085;
 	vertical-align: middle;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -553,7 +553,7 @@ section
 }
 .header_search_input:focus
 {
-	border-bottom: solid 2px #2e21df !important;
+	border-bottom: solid 2px #16a085 !important;
 }
 .header_search_input::-webkit-input-placeholder
 {
@@ -666,7 +666,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #2e21df;
+	color: #16a085;
 }
 
 /*********************************
@@ -765,7 +765,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .menu .search
 {
@@ -842,7 +842,7 @@ section
 }
 .menu .search_input:focus
 {
-	border-bottom: solid 2px #2e21df;
+	border-bottom: solid 2px #16a085;
 }
 .header_search_button
 {
@@ -926,7 +926,8 @@ section
 .home
 {
 	width: 100%;
-	height: 530px;
+	min-height: 350px;
+	height: 75vh;
 }
 .home_background
 {
@@ -950,7 +951,7 @@ section
 {
 	width: 225px;
 	height: 43px;
-	background: #2e21df;
+	background: #16a085;
 	text-align: center;
 	border-radius: 3px;
 	margin-left: auto;
@@ -960,6 +961,7 @@ section
 .home_button:hover
 {
 	box-shadow: 0px 10px 40px rgba(0,0,0,0.3);
+	color: #fff;
 }
 .home_button a
 {
@@ -1132,7 +1134,7 @@ section
 }
 .course_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .course_info
 {
@@ -1156,7 +1158,7 @@ section
 }
 .course_info ul li a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .course_info ul li:not(:last-child)::after
 {
@@ -1224,7 +1226,7 @@ section
 }
 .course_free
 {
-	background: #2e21df;
+	background: #16a085;
 }
 
 /*********************************
@@ -1301,7 +1303,7 @@ section
 }
 .instructor_name a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .instructor_title
 {
@@ -1402,7 +1404,7 @@ section
 .form_input:hover,
 .form_input:focus
 {
-	border-bottom: solid 2px #2e21df;
+	border-bottom: solid 2px #16a085;
 }
 .form_input::-webkit-input-placeholder
 {
@@ -1489,7 +1491,7 @@ section
 {
 	width: 100%;
 	height: 43px;
-	background: #2e21df;
+	background: #16a085;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
@@ -1644,13 +1646,13 @@ section
 }
 .event_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .event_tag
 {
 	width: 61px;
 	height: 25px;
-	background: #2e21df;
+	background: #16a085;
 	border-radius: 3px;
 	font-size: 12px;
 	text-align: center;
@@ -1802,7 +1804,7 @@ section
 }
 .blog_right_category a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .blog_right_title
 {
@@ -1822,7 +1824,7 @@ section
 }
 .blog_right_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .blog_right_text
 {
@@ -1842,7 +1844,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #2e21df;
+	color: #16a085;
 }
 .read_more img
 {
@@ -2039,7 +2041,7 @@ section
 }
 .newsletter_input:focus
 {
-	border-bottom: solid 1px #2e21df !important;
+	border-bottom: solid 1px #16a085 !important;
 }
 .newsletter_form:hover .newsletter_button i
 {
@@ -2604,7 +2606,7 @@ section
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 0.75;
-	color: #2e21df;
+	color: #16a085;
 	vertical-align: middle;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -2711,7 +2713,7 @@ section
 }
 .header_search_input:focus
 {
-	border-bottom: solid 2px #2e21df !important;
+	border-bottom: solid 2px #16a085 !important;
 }
 .header_search_input::-webkit-input-placeholder
 {
@@ -2824,7 +2826,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #2e21df;
+	color: #16a085;
 }
 
 /*********************************
@@ -2923,7 +2925,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .menu .search
 {
@@ -3000,7 +3002,7 @@ section
 }
 .menu .search_input:focus
 {
-	border-bottom: solid 2px #2e21df;
+	border-bottom: solid 2px #16a085;
 }
 .header_search_button
 {
@@ -3108,7 +3110,7 @@ section
 {
 	width: 225px;
 	height: 43px;
-	background: #2e21df;
+	background: #16a085;
 	text-align: center;
 	border-radius: 3px;
 	margin-left: auto;
@@ -3290,7 +3292,7 @@ section
 }
 .course_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .course_info
 {
@@ -3314,7 +3316,7 @@ section
 }
 .course_info ul li a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .course_info ul li:not(:last-child)::after
 {
@@ -3382,7 +3384,7 @@ section
 }
 .course_free
 {
-	background: #2e21df;
+	background: #16a085;
 }
 
 /*********************************
@@ -3459,7 +3461,7 @@ section
 }
 .instructor_name a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .instructor_title
 {
@@ -3560,7 +3562,7 @@ section
 .form_input:hover,
 .form_input:focus
 {
-	border-bottom: solid 2px #2e21df;
+	border-bottom: solid 2px #16a085;
 }
 .form_input::-webkit-input-placeholder
 {
@@ -3647,7 +3649,7 @@ section
 {
 	width: 100%;
 	height: 43px;
-	background: #2e21df;
+	background: #16a085;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
@@ -3802,13 +3804,13 @@ section
 }
 .event_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .event_tag
 {
 	width: 61px;
 	height: 25px;
-	background: #2e21df;
+	background: #16a085;
 	border-radius: 3px;
 	font-size: 12px;
 	text-align: center;
@@ -3960,7 +3962,7 @@ section
 }
 .blog_right_category a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .blog_right_title
 {
@@ -3980,7 +3982,7 @@ section
 }
 .blog_right_title a:hover
 {
-	color: #2e21df;
+	color: #16a085;
 }
 .blog_right_text
 {
@@ -4000,7 +4002,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #2e21df;
+	color: #16a085;
 }
 .read_more img
 {
@@ -4196,7 +4198,7 @@ section
 }
 .newsletter_input:focus
 {
-	border-bottom: solid 1px #2e21df !important;
+	border-bottom: solid 1px #16a085 !important;
 }
 .newsletter_form:hover .newsletter_button i
 {

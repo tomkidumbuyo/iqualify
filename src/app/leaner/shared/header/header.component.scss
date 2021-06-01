@@ -2,6 +2,84 @@
     margin-top: 5px;
 }
 
+.main_nav_contaner{
+    padding: 10px 20px;
+    float: left;
+      ul.main_nav {
+        li {
+            a {
+                color: rgba($color: #fff, $alpha: .7); 
+            }
+        }
+        li.active {
+            a {
+                color: rgba($color: #fff, $alpha: .9);
+            }
+        }
+      }
+}
+
+header{
+    color: rgba($color: #ffffff, $alpha: .7);
+    background-color: #16a085;
+    .header_right{
+        ul {
+            li {
+                a.option_links{
+                    color: rgba($color: #ffffff, $alpha: .9);
+                    
+                }
+                a{
+                    .text-default {
+                        color: rgba($color: #ffffff, $alpha: 1) !important;
+                    }
+                    .text-muted {
+                        color: rgba($color: #ffffff, $alpha: .8) !important;
+                    }   
+                }
+            }
+        }
+
+    }
+    .avatar {
+       
+        background: #1abc9c no-repeat center/cover;
+            background-image: none;
+        
+    }
+
+    .search120 {
+        .ui.search{
+            .input-icon{
+                .input-group {
+                    .input-group-prepend {
+                        button.btn.btn-secondary {
+                            background-color: rgba($color: #ffffff, $alpha: .9);
+                            border-color: rgba($color: #ffffff, $alpha: .9);
+                            color:rgba($color: #000, $alpha: .9)
+                        }
+                    }
+                
+                .header-search {
+                    background-color: rgba($color: #ffffff, $alpha: .9);
+                    border-color: rgba($color: #ffffff, $alpha: .9);
+                    border-bottom-right-radius: 3px;
+                    border-top-right-radius: 3px;
+                    color:rgba($color: #000, $alpha: .9)
+
+                }
+                .input-icon-addon {
+                    i {
+                        color:rgba($color: #000, $alpha: .7)
+                    }
+                }
+            
+                }
+            }
+        }
+    }
+}
+
 .full-menu {
     padding-top: 20px;
     padding-bottom: 20px;

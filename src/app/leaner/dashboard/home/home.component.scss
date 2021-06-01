@@ -1,9 +1,20 @@
 .lesson-tile {
     margin-bottom: 20px;
-    img {
-        background: #1865f2;
-        min-height: 100px;
-        width: 100%;
+
+    .card {
+        .card-body{
+            .img-div {
+                height: 120px;
+                background: #1865f2;
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+                img {
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                    width: 100%;
+                }
+            }
+        }
     }
     h5 {
         
